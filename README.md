@@ -21,7 +21,7 @@ print('Subjective...', tb_analyse.sentiment.subjectivity) — Prints subjectivit
 
 Example: "Today is a bad day" → polarity likely < 0 (negative), subjectivity > 0 (opinionated).
 
-3) # lexix — Comment (intended as “lexicon demo”).
+# 3)  lexix — Comment (intended as “lexicon demo”).
 
 tb = TextBlob("I love Python, but bugs are terrible.") — Creates a TextBlob from a mixed‑sentiment sentence (contains both positive and negative words). You can inspect tb.sentiment, tb.sentiment.polarity, and tb.sentiment.subjectivity to see how lexicon scoring behaves on such text.
 
